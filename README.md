@@ -18,13 +18,13 @@ I designed the layout and visual system in Figma before writing any code. My pre
 ### 🖼 Figma Screenshots
 
 #### Desktop Design
-![Desktop Design](images/pg-site-design-desktop.png)
+![Desktop](images/pg-site-design-desktop.png)
 
 ![Desktop Light Mode](images/pg-site-design-desktop-light-mode.png)
 
 
 #### Mobile Design
-![Mobile Design](images/pg-site-design-mobile.png)
+![Mobile](images/pg-site-design-mobile.png)
 
 
 *(Note: These screenshots reflect my early design iterations as I was learning Figma. The final implementation may vary slightly as I refined spacing and responsiveness during development.)*
