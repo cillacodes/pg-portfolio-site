@@ -1,15 +1,15 @@
 # 🌐 Personal Portfolio Website 
 
-This is my personal developer portfolio site. The goal was to keep the tech stack simple and focus on strong fundamentals, layout structure, responsiveness, and visual clarity. Also, my main intention was to finish it. I've been meaning to create a portfolio site for years and never prioritized it. 😅
+This is my developer portfolio site. The goal was to keep the tech stack simple and focus on layout, responsiveness, and visual clarity. Also, my main intention was to finish it. I've been meaning to create a portfolio site for years and never prioritized it. 😅
 
 ## ✨ About This Project
-- **Design:** Created in Figma (I learned how to design in Figma)
+- **Design:** Created in Figma
 - **Built With:** HTML, CSS, and Tailwind CSS
 - **Deployed On:** TBD
 
 ## 🎨 Design Process
 
-I designed the layout and visual system in Figma before writing any code. My previous experience with Figma was using dev mode to translate design files to code so this was my first foray in using Figma as a designer. I used this short Youtube video as a tutorial:![Figma Tutorial for Beginners (13-min crash course!)](https://www.youtube.com/watch?v=jQ1sfKIl50E)
+I designed the page in Figma before writing any code. My previous experience with Figma was using dev mode to translate design files to code so this was my first foray into using Figma as a designer. I used this short Youtube video as a tutorial: ![Figma Tutorial for Beginners (13-min crash course!)](https://www.youtube.com/watch?v=jQ1sfKIl50E)
 
 ### 🖼 Figma Screenshots
 
