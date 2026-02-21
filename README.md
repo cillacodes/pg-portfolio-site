@@ -14,13 +14,13 @@ I designed the page in Figma before writing any code. My previous experience wit
 ### 🖼 Figma Screenshots
 
 #### Desktop Design
-![Desktop](images/pg-site-design-desktop.png)
+![Desktop](images/figma-design-desktop.png)
 
-![Desktop Light Mode](images/pg-site-design-desktop-light-mode.png)
+![Desktop Light Mode](images/figma-design-desktop-light-mode.png)
 
 
 #### Mobile Design
-![Mobile](images/pg-site-design-mobile.png)
+![Mobile](images/figma-design-mobile.png)
 
 
 *(Note: These screenshots reflect my early design iterations as I was learning Figma. The final implementation may vary slightly as I refined spacing and responsiveness during development.)*
