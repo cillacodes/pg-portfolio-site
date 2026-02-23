@@ -1,53 +1,72 @@
-<!DOCTYPE html>
-<htmnl> 
-    <head>
-        <meta charset="UTF-8">
-         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <title>Priscilla G</title>
-         <link rel="icon" type="image/x-icon" href="images/favicon.png">
-         <link rel="stylesheet" href="styles/output.css">
-         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
-        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"> -->
-    </head>
+<!doctype html>
+<htmnl>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Priscilla G</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="styles/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik+Mono+One&family=Rubik:ital,wght@0,800;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"> -->
+  </head>
 
-    <body> 
-        <section> 
-            <img src="images/pg-portrait.jpeg" alt="A portrait of Priscilla in a garden">
-        </section>
+  <body class="min-h-screen">
+    <div class="flex flex-col md:flex-row min-h-screen">
+      <!-- Left side image -->
+      <section class="md:w-[45%] w-full">
+        <img
+          src="images/pg-portrait.jpeg"
+          alt="A portrait of Priscilla in a garden"
+          class="w-full h-full object-cover object-center"
+        />
+      </section>
 
-        <section>
-            <div>
-                <h1 class="text-4xl font-black tracking-tight text-purple font-[var(--font-heading)]"> Hello, I'm Priscilla</h1>
-            </div>
-            <div class="font-[var(--font-heading)] text-purple">
-                <p>software engineer · test automation · photographer</p>
-            </div>
-            <div class="font-[var(--font-body)]">
-                <p>
-                    I’m a software engineer with a background in front-end development and UI automation. 
-                    I’m naturally curious and love learning as I go, both in my work and beyond it.
-                    <br>
-                    I enjoy being on collaborative teams and care about building thoughtful, 
-                    accessible software (and a solid CI/CD pipeline). 
-                    Outside of tech, you’ll usually find me taking photos, reading, gaming, 
-                    traveling, or going to concerts! ✩₊˚.⋆☾⋆⁺₊✧
-                </p>
-            </div>
+      <!-- Right side content -->
+      <section class="md:w-[55%] w-full p-8 flex flex-col justify-center gap-6">
+        <div class="max-w-2xl font-black font-[var(--font-heading)]">
+          <h3 class="text-gray text-3xl">Hello,</h3>
+          <h1
+            class="text-6xl text-purple"
+          >
+            I'm Priscilla
+          </h1>
+        </div>
+        <div class="font-[var(--font-heading)] text-purple text-2xl font-bold">
+          <p>software engineer · test automation · photographer</p>
+        </div>
+        <div class="font-[var(--font-body)] text-xl">
+          <span>✩₊˚.⋆☾⋆⁺₊✧</span>
+          <p class="mb-6">
+            I’m a software engineer with a background in front-end development
+            and UI automation. I’m naturally curious and love learning as I go,
+            both in my work and beyond it.
+          </p>
+          <p>
+            I enjoy being on collaborative teams and care about building
+            thoughtful, accessible software (and a solid CI/CD pipeline).
+            Outside of tech, you’ll usually find me taking photos, reading,
+            gaming, traveling, or going to concerts!
+          </p>
+          <span>✩₊˚.⋆☾⋆⁺₊✧</span>
+          </p>
+        </div>
 
-            <div class="font-[var(--font-body)]">
-                <ul>
-                    <li> Favorite snack: Tony’s chocolate </li>
-                    <li> Favorite drinks: green tea, boba tea, shaah and horchata </li>
-                    <li> Recently read: Blood Over Brighthaven </li>
-                    <li> Recently watched: No Other Choice </li>
-                    <li> Currently learning: Figma, AWS cloud, flute, ballet </li>
-                    <li> Currently playing: Spiritfarer </li>
-                </ul>
-            </div>
-
-            <div></div>
-        </section>
-    </body>
+        <div class="font-[var(--font-body)] text-xl">
+          <ul>
+            <li><span class="font-medium">Favorite snack:</span> Tony’s chocolate</li>
+            <li><span class="font-medium">Favorite drinks:</span> green tea, boba tea, shaah and horchata</li>
+            <li><span class="font-medium">Recently read:</span><i> Blood Over Brighthaven</i></li>
+            <li><span class="font-medium">Recently watched:</span><i>No Other Choice</i></li>
+            <li><span class="font-medium">Currently learning:</span> Figma, AWS cloud, flute, ballet</li>
+            <li><span class="font-medium">Currently playing:</span> <i>Spiritfarer</i></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
 </htmnl>
