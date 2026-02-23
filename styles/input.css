@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+    /* --font-heading: "Rubik Mono One", monospace; */
+    --font-heading: "Rubik", sans-serif;
+    --font-body: "Overpass", sans-serif;
+    --color-purple: #A176F1;
+}
