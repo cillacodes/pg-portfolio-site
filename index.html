@@ -16,31 +16,31 @@
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"> -->
   </head>
 
-  <body class="min-h-screen">
-    <div class="flex flex-col md:flex-row min-h-screen">
+  <body class="min-h-screen bg-dark-mode">
+    <div class="flex flex-col md:flex-row md:h-screen animate-[fadeUp_0.8s_ease-out_forwards] opacity-0">
       <!-- Left side image -->
-      <section class="md:w-[45%] w-full">
+      <section class="md:w-[45%] w-full md:h-full">
         <img
           src="images/pg-portrait.jpeg"
           alt="A portrait of Priscilla in a garden"
-          class="w-full h-full object-cover object-center"
+          class="w-full h-full object-cover object-center scale-105"
         />
       </section>
 
       <!-- Right side content -->
-      <section class="md:w-[55%] w-full flex flex-col gap-6 justify-center border border-dashed p-8">
+      <section class="md:w-[55%] w-full flex flex-col gap-6 justify-center lg:px-10 p-8 ">
         <div class="max-w-2xl font-black font-[var(--font-heading)]">
-          <h3 class="text-gray text-3xl">Hello,</h3>
+          <p class="text-gray md:text-2xl text-xl tracking-wide">Hello,</p>
           <h1
-            class="text-6xl text-purple"
+            class="md:text-6xl text-5xl text-purple tracking-tight"
           >
             I'm Priscilla
           </h1>
         </div>
-        <div class="font-[var(--font-heading)] text-purple text-2xl font-bold">
+        <div class="font-[var(--font-heading)] text-purple md:text-2xl text-l font-bold">
           <p>software engineer · test automation · photographer</p>
         </div>
-        <div class="font-[var(--font-body)] text-xl">
+        <div class="font-[var(--font-body)] md:text-xl text-l text-white">
           <span>✩₊˚.⋆☾⋆⁺₊✧</span>
           <p class="mb-6">
             I’m a software engineer with a background in front-end development
@@ -57,8 +57,8 @@
           </p>
         </div>
 
-        <div class="font-[var(--font-body)] text-xl">
-          <ul class="list-none">
+        <div class="font-[var(--font-body)] md:text-xl text-l text-white">
+          <ul class="list-none space-y-1">
             <li><span class="font-medium">Favorite snack:</span> Tony’s chocolate</li>
             <li><span class="font-medium">Favorite drinks:</span> green tea, boba tea, shaah and horchata</li>
             <li><span class="font-medium">Recently read:</span><i> Blood Over Brighthaven</i></li>
@@ -68,17 +68,17 @@
           </ul>
         </div>
 
-        <div class="text-purple flex justify-between border border-dashed">
+        <div class="text-purple flex justify-between">
           <a href="mailto:priscillayg23@gmail.com" class="hover:text-gray"> 
             <i class="fa-solid fa-envelope fa-2xl"></i>
           </a>
           <a href="https://www.linkedin.com/in/priscillagyamfi/" target="_blank" class="hover:text-gray"> 
             <i class="fa-brands fa-linkedin fa-2xl"></i>
           </a>
-          <a href="https://github.com/cillacodes" class="hover:text-gray"> 
+          <a href="https://github.com/cillacodes" target="_blank" class="hover:text-gray"> 
             <i class="fa-brands fa-github fa-2xl"></i>
           </a>
-          <a href="https://unsplash.com/@priscillag" class="hover:text-gray"> 
+          <a href="https://unsplash.com/@priscillag" target="_blank" class="hover:text-gray"> 
             <i class="fa-brands fa-unsplash fa-2xl"></i>
           </a>
 

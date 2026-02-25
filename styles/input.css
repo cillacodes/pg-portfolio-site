@@ -9,7 +9,18 @@
     --font-body: "Overpass", sans-serif;
     --color-purple: #A176F1;
     --color-gray: #9f9fa8;
-    --color-light-mode: #F4F4F5;
-    --color-body: #0A0A0A;
+    --color-white: #F4F4F5;
+    /* --color-body: #0A0A0A; */
     --color-dark-mode: #131313;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
