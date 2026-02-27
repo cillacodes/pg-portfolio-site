@@ -1,5 +1,5 @@
 <!doctype html>
-<htmnl>
+<html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -17,22 +17,22 @@
   </head>
 
   <body class="min-h-screen bg-dark-mode">
-    <div class="flex flex-col md:flex-row md:h-screen animate-[fadeUp_0.8s_ease-out_forwards] opacity-0">
+    <div class="flex flex-col md:flex-row md:min-h-screen animate-[fadeUp_0.8s_ease-out_forwards] opacity-0">
       <!-- Left side image -->
-      <section class="md:w-[45%] w-full md:h-full">
+      <section class="md:w-[45%] w-full">
         <img
           src="images/pg-portrait.jpeg"
           alt="A portrait of Priscilla in a garden"
-          class="w-full h-full object-cover object-center scale-105"
+          class="w-full h-full object-cover object-center"
         />
       </section>
 
       <!-- Right side content -->
       <section class="md:w-[55%] w-full flex flex-col gap-6 justify-center lg:px-10 p-8 ">
         <div class="max-w-2xl font-black font-[var(--font-heading)]">
-          <p class="text-gray md:text-2xl text-xl tracking-wide">Hello,</p>
+          <p class="text-gray lg:text-2xl text-xl tracking-wide">Hello,</p>
           <h1
-            class="md:text-6xl text-5xl text-purple tracking-tight"
+            class="lg:text-6xl text-5xl text-purple tracking-tight"
           >
             I'm Priscilla
           </h1>
@@ -43,8 +43,8 @@
         <div class="font-[var(--font-body)] md:text-xl text-l text-white">
           <span>✩₊˚.⋆☾⋆⁺₊✧</span>
           <p class="mb-6">
-            I’m a software engineer with a background in front-end development
-            and UI automation. I’m naturally curious and love learning as I go,
+            I’m a software engineer with a background in UI automation and front-end development. 
+            I’m naturally curious and love learning as I go,
             both in my work and beyond it.
           </p>
           <p>
@@ -59,16 +59,17 @@
 
         <div class="font-[var(--font-body)] md:text-xl text-l text-white">
           <ul class="list-none space-y-1">
+            <li><span class="font-medium">Favorite stack:</span> TypeScript, React, Playwright, Tailwind CSS, Semaphore</li>
             <li><span class="font-medium">Favorite snack:</span> Tony’s chocolate</li>
             <li><span class="font-medium">Favorite drinks:</span> green tea, boba tea, shaah and horchata</li>
             <li><span class="font-medium">Recently read:</span><i> Blood Over Brighthaven</i></li>
-            <li><span class="font-medium">Recently watched:</span><i>No Other Choice</i></li>
+            <li><span class="font-medium">Recently watched:</span><i> No Other Choice</i></li>
             <li><span class="font-medium">Currently learning:</span> Figma, AWS cloud, flute, ballet</li>
             <li><span class="font-medium">Currently playing:</span> <i>Spiritfarer</i></li>
           </ul>
         </div>
 
-        <div class="text-purple flex justify-between">
+        <div class="text-purple flex justify-between pt-8">
           <a href="mailto:priscillayg23@gmail.com" class="hover:text-gray"> 
             <i class="fa-solid fa-envelope fa-2xl"></i>
           </a>
@@ -86,4 +87,4 @@
       </section>
     </div>
   </body>
-</htmnl>
+</html>
