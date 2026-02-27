@@ -5,7 +5,7 @@ This is my developer portfolio site. The goal was to keep the tech stack simple 
 ## ✨ About This Project
 - **Design:** Created in Figma
 - **Built With:** HTML, CSS, and Tailwind CSS
-- **Deployed On:** TBD
+- **Deployed With:** Github Pages
 
 ## 🎨 Design Process
 
